@@ -4,7 +4,7 @@ import { FcAlarmClock } from 'react-icons/fc';
 const Banner = () => {
   const [timeRemaining, setTimeRemaining] = useState(0);
 
-  const offerEndDate = new Date('2023-07-26').getTime();  //set time to show the end date of offer
+  const offerEndDate = new Date('2023-07-28').getTime();  //set time to show the end date of offer
   const calculateTimeRemaining = () => {
     const currentTime = new Date().getTime();
     const remaining = offerEndDate - currentTime;
